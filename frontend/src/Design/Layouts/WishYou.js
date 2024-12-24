@@ -17,16 +17,19 @@ const WishYou = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://69.197.187.24:5000/api/submit-data", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+      const response = await fetch(
+        "http://69.197.187.24:5000/api/submit-data",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
 
       if (response.ok) {
-        alert("Data submitted successfully!");
+        alert("Email Sent successfully!");
         setFormData({ firstName: "", lastName: "", email: "" });
       } else {
         alert("Failed to submit data.");
