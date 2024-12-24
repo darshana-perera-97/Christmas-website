@@ -15,20 +15,18 @@ const WishYou = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
     try {
-      const response = await fetch(
-        "http://69.197.187.24:5000/api/submit-data",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(formData),
-        }
-      );
+      const response = await fetch("http://localhost:5000/api/submit-data", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
 
       if (response.ok) {
-        alert("Check your email to receive the wish.");
+        alert("Data submitted successfully!");
         setFormData({ firstName: "", lastName: "", email: "" });
       } else {
         alert("Failed to submit data.");
