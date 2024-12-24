@@ -17,7 +17,7 @@ const WishYou = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:5000/api/submit-data", {
+      const response = await fetch("http://69.197.187.24:5000/api/submit-data", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
