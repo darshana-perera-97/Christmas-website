@@ -29,7 +29,7 @@ app.post("/api/submit-data", (req, res) => {
     from: "your-email@gmail.com", // Sender's email
     to: email, // Recipient email (from the form)
     subject: "Christmas Wish Submission",
-    text: `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: auto; border: 1px solid #ddd; border-radius: 8px; overflow: hidden;">
+    html: `<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: auto; border: 1px solid #ddd; border-radius: 8px; overflow: hidden;">
       <div style="background-color: #f44336; color: #fff; padding: 20px; text-align: center;">
         <h1 style="margin: 0; font-size: 24px;">🎄 Merry Christmas! 🎁</h1>
       </div>
