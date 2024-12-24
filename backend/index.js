@@ -38,7 +38,7 @@ app.post("/api/submit-data", (req, res) => {
         <p style="font-size: 16px;">Wishing you a Merry Christmas and a Happy New Year! May this festive season bring joy, love, and happiness to you and your loved ones.</p>
         <p style="font-size: 16px;">Thank you for being part of our journey. We look forward to an amazing year ahead with you!</p>
         <div style="text-align: center; margin: 20px 0;">
-          <a href="#" style="text-decoration: none; background-color: #f44336; color: #fff; padding: 10px 20px; border-radius: 5px; font-size: 16px;">Explore More</a>
+          <a href="http://69.197.187.24:3000/" style="text-decoration: none; background-color: #f44336; color: #fff; padding: 10px 20px; border-radius: 5px; font-size: 16px;">Explore More</a>
         </div>
         <p style="font-size: 14px; color: #666;">If you have any questions, feel free to contact us anytime. We're here to help!</p>
       </div>
