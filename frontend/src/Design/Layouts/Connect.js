@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, Outlet } from "react-router-dom";
 import tree02 from "../Assets/tree02.jpg";
 
 const Connect = () => {
@@ -11,7 +12,10 @@ const Connect = () => {
             <h1 className="txt1">Be Updated</h1>
             <h1 className="mb-3 txt2">With Latest Updated</h1>
             <h2 className="mb-3">From Us</h2>
-            <button className="btn btn-primary custom-btn3">Connect Now</button>
+            {/* <button className="btn btn-primary custom-btn3">Connect Now</button> */}
+            <Link to="/form" className="btn btn-primary custom-btn3">
+              Connect Now
+            </Link>
           </div>
           {/* Image Section */}
           <div className="col-md-6 text-center mb-4 mb-md-0">
