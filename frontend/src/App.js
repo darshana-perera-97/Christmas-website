@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Design from "./Design/Design";
+import Snowfall from "./Design/Layouts/Snowfall";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
     //   </header>
     // </div>
     <div>
+      <Snowfall />
       <Design />
     </div>
   );
