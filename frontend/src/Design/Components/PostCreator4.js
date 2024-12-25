@@ -2,9 +2,9 @@ import React, { useRef } from "react";
 import html2canvas from "html2canvas";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import backImg from "../Assets/post1.jpg";
+import backImg from "../Assets/post4.jpg";
 
-const PostCreator = () => {
+const PostCreator4 = () => {
   const postRef = useRef(null);
   const [text1, setText1] = React.useState("D&D Creations");
   const [text2, setText2] = React.useState("Web Design and Development");
@@ -87,7 +87,7 @@ const PostCreator = () => {
               style={{
                 color: "white",
                 textAlign: "center",
-                marginTop: "360px",
+                marginTop: "390px",
               }}
             >
               {text1}
@@ -116,4 +116,4 @@ const PostCreator = () => {
   );
 };
 
-export default PostCreator;
+export default PostCreator4;
