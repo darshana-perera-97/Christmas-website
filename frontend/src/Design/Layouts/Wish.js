@@ -15,7 +15,7 @@ const MainBanner = () => {
           <h1 className="txt1">Create a</h1>
           <h1 className="mb-3 txt2">Christmass Wishes</h1>
           <h2 className="mb-3">With Your Own Design</h2>
-          <Link to="/form" className="btn btn-primary custom-btn">
+          <Link to="/postAll" className="btn btn-primary custom-btn">
             Try Now
           </Link>
           {/* <button className="btn btn-primary custom-btn">Try Now</button> */}
